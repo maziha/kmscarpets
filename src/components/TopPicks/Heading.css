@@ -1,0 +1,25 @@
+.seven h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #b7a388;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.seven h1:after,
+.seven h1:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #b7a388;
+  border-top: 1px solid #b7a388;
+  height: 0.2px;
+  background-color: #b7a388;
+}
